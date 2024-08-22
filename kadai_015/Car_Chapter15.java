@@ -5,6 +5,8 @@ public class Car_Chapter15 {
 	private int gear = 1;
 	private int speed = 10;
 	
+	public Car_Chapter15() {
+	}
 	
 	public void gearChange(int afterGear) {
 		this.gear = afterGear;
