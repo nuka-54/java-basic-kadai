@@ -10,6 +10,10 @@ abstract public class Kato_Chapter18 {
 	
     public Kato_Chapter18() {
     }
+    
+    public void setGivenName(String givenName) {
+        this.givenName = givenName;
+    }
 	
 	public void commonIntroduce() {
 		System.out.println("名前は" + familyName  + givenName + "です");
@@ -23,7 +27,5 @@ abstract public class Kato_Chapter18 {
 		eachIntroduce();
 	}
 	
-    public void setGivenName(String givenName) {
-        this.givenName = givenName;
-    }
+
 }
